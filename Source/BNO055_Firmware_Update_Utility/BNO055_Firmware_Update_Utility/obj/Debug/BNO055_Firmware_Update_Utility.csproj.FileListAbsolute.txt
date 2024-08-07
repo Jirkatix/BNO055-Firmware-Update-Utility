@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Debug\BNO055_Firmware_Update_Utility.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Debug\BNO055_Firmware_Update_Utility.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Debug\BNO055_Firmware_Update_Utility.Form1.resources
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Debug\BNO055_Firmware_Update_Utility.Properties.Resources.resources
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Debug\BNO055_Firmware_Update_Utility.csproj.GenerateResource.cache
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Debug\BNO055_Firmware_Update_Utility.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\bin\Debug\BNO055_Firmware_Update_Utility.exe.config
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\bin\Debug\BNO055_Firmware_Update_Utility.exe
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\bin\Debug\BNO055_Firmware_Update_Utility.pdb
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Debug\BNO055_Firmware_Update_Utility.exe
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Debug\BNO055_Firmware_Update_Utility.pdb
