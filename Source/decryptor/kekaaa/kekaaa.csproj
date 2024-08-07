@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{171AE8F4-BA5B-4FCD-95B3-BE1E4E977518}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>kekaaa</RootNamespace>
+    <AssemblyName>kekaaa</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BaseMasterView">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BaseMasterView.dll</HintPath>
+    </Reference>
+    <Reference Include="BHY">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BHY.dll</HintPath>
+    </Reference>
+    <Reference Include="BHY2">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BHY2.dll</HintPath>
+    </Reference>
+    <Reference Include="BMA400">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BMA400.dll</HintPath>
+    </Reference>
+    <Reference Include="BMA510">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BMA510.dll</HintPath>
+    </Reference>
+    <Reference Include="BMA55x">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BMA55x.dll</HintPath>
+    </Reference>
+    <Reference Include="BME280">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BME280.dll</HintPath>
+    </Reference>
+    <Reference Include="BME680">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BME680.dll</HintPath>
+    </Reference>
+    <Reference Include="BMI08x">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BMI08x.dll</HintPath>
+    </Reference>
+    <Reference Include="BMI3xy">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BMI3xy.dll</HintPath>
+    </Reference>
+    <Reference Include="BMM150">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BMM150.dll</HintPath>
+    </Reference>
+    <Reference Include="BMM350">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BMM350.dll</HintPath>
+    </Reference>
+    <Reference Include="BMP180">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BMP180.dll</HintPath>
+    </Reference>
+    <Reference Include="BMP380">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BMP380.dll</HintPath>
+    </Reference>
+    <Reference Include="BMP580">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BMP580.dll</HintPath>
+    </Reference>
+    <Reference Include="BMy42">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BMy42.dll</HintPath>
+    </Reference>
+    <Reference Include="BNO055">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BNO055.dll</HintPath>
+    </Reference>
+    <Reference Include="BSEC Wrapper">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BSEC Wrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="BSTASICS">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BSTASICS.dll</HintPath>
+    </Reference>
+    <Reference Include="BSTBoard">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BSTBoard.dll</HintPath>
+    </Reference>
+    <Reference Include="BSTCommunication">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BSTCommunication.dll</HintPath>
+    </Reference>
+    <Reference Include="BSTMVDLLInterface">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BSTMVDLLInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="BSTProtocol">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BSTProtocol.dll</HintPath>
+    </Reference>
+    <Reference Include="BSTSENSORS">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BSTSENSORS.dll</HintPath>
+    </Reference>
+    <Reference Include="BSTUserControlLib">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BSTUserControlLib.dll</HintPath>
+    </Reference>
+    <Reference Include="BSTUtil">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\BSTUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigurationFactory">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\ConfigurationFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="DataValidationUtility">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\DataValidationUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="EnvDTE, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\EnvDTE.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Iocomp.Instrumentation.WF40.Common">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\Iocomp.Instrumentation.WF40.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Iocomp.Instrumentation.WF40.Plot">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\Iocomp.Instrumentation.WF40.Plot.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+    </Reference>
+    <Reference Include="SensorSerializer">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\SensorSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="SensorSerializerManager">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\SensorSerializerManager.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\SharpGL.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.SceneGraph">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\SharpGL.SceneGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.WinForms">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\SharpGL.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="stdole, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\stdole.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Syncfusion.Core">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\Syncfusion.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Base">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\Syncfusion.Grid.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Windows">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\Syncfusion.Grid.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\Syncfusion.Shared.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\Syncfusion.Shared.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Base">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\Syncfusion.Tools.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\Syncfusion.Tools.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XMLConfigData">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\XMLConfigData.dll</HintPath>
+    </Reference>
+    <Reference Include="XMLConfigLib">
+      <HintPath>..\..\..\..\..\..\Program Files\Bosch Sensortec\Development Desktop 2.1\XMLConfigLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
