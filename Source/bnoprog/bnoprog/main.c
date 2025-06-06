@@ -42,7 +42,7 @@ int main(void)
 	UBRR0 = 3; //250k
 	
 	//i2c
-	TWBR = 12;
+	TWBR = 72; //100k, added robustness?
 	
 	
 	bno_reset(0);
@@ -139,7 +139,10 @@ void byte_to_serial(uint8_t data) {
 }
 
 void twi_wait(void) {
-	while (!(TWCR & (1 << TWINT))) {}
+	uint16_t cooldown = 1000;
+	while (!(TWCR & (1 << TWINT)) && cooldown--) {
+		_delay_us(100);
+	}
 }
 
 bno_ver bno_read_version(void) {
