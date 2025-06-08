@@ -1,0 +1,33 @@
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\bin\Release\BNO055_Firmware_Update_Utility.exe.config
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\bin\Release\BNO055_Firmware_Update_Utility.exe
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\bin\Release\BNO055_Firmware_Update_Utility.pdb
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.Form1.resources
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.Properties.Resources.resources
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.csproj.GenerateResource.cache
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.exe
+C:\Users\User\source\repos\BNO055_Firmware_Update_Utility\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.pdb
+C:\Users\User\Desktop\bnoupdate\Source\BNO055_Firmware_Update_Utility - Copy\BNO055_Firmware_Update_Utility\bin\Release\BNO055_Firmware_Update_Utility.exe.config
+C:\Users\User\Desktop\bnoupdate\Source\BNO055_Firmware_Update_Utility - Copy\BNO055_Firmware_Update_Utility\bin\Release\BNO055_Firmware_Update_Utility.exe
+C:\Users\User\Desktop\bnoupdate\Source\BNO055_Firmware_Update_Utility - Copy\BNO055_Firmware_Update_Utility\bin\Release\BNO055_Firmware_Update_Utility.pdb
+C:\Users\User\Desktop\bnoupdate\Source\BNO055_Firmware_Update_Utility - Copy\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\bnoupdate\Source\BNO055_Firmware_Update_Utility - Copy\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\bnoupdate\Source\BNO055_Firmware_Update_Utility - Copy\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.Form1.resources
+C:\Users\User\Desktop\bnoupdate\Source\BNO055_Firmware_Update_Utility - Copy\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.Properties.Resources.resources
+C:\Users\User\Desktop\bnoupdate\Source\BNO055_Firmware_Update_Utility - Copy\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.csproj.GenerateResource.cache
+C:\Users\User\Desktop\bnoupdate\Source\BNO055_Firmware_Update_Utility - Copy\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\bnoupdate\Source\BNO055_Firmware_Update_Utility - Copy\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.exe
+C:\Users\User\Desktop\bnoupdate\Source\BNO055_Firmware_Update_Utility - Copy\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.pdb
+C:\Users\User\Desktop\PortableGit\BNO055-Firmware-Update-Utility\Source\BNO055_Firmware_Update_Utility (UART)\BNO055_Firmware_Update_Utility\bin\Release\BNO055_Firmware_Update_Utility.exe.config
+C:\Users\User\Desktop\PortableGit\BNO055-Firmware-Update-Utility\Source\BNO055_Firmware_Update_Utility (UART)\BNO055_Firmware_Update_Utility\bin\Release\BNO055_Firmware_Update_Utility.exe
+C:\Users\User\Desktop\PortableGit\BNO055-Firmware-Update-Utility\Source\BNO055_Firmware_Update_Utility (UART)\BNO055_Firmware_Update_Utility\bin\Release\BNO055_Firmware_Update_Utility.pdb
+C:\Users\User\Desktop\PortableGit\BNO055-Firmware-Update-Utility\Source\BNO055_Firmware_Update_Utility (UART)\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\PortableGit\BNO055-Firmware-Update-Utility\Source\BNO055_Firmware_Update_Utility (UART)\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\PortableGit\BNO055-Firmware-Update-Utility\Source\BNO055_Firmware_Update_Utility (UART)\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.Form1.resources
+C:\Users\User\Desktop\PortableGit\BNO055-Firmware-Update-Utility\Source\BNO055_Firmware_Update_Utility (UART)\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.Properties.Resources.resources
+C:\Users\User\Desktop\PortableGit\BNO055-Firmware-Update-Utility\Source\BNO055_Firmware_Update_Utility (UART)\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.csproj.GenerateResource.cache
+C:\Users\User\Desktop\PortableGit\BNO055-Firmware-Update-Utility\Source\BNO055_Firmware_Update_Utility (UART)\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\PortableGit\BNO055-Firmware-Update-Utility\Source\BNO055_Firmware_Update_Utility (UART)\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.exe
+C:\Users\User\Desktop\PortableGit\BNO055-Firmware-Update-Utility\Source\BNO055_Firmware_Update_Utility (UART)\BNO055_Firmware_Update_Utility\obj\Release\BNO055_Firmware_Update_Utility.pdb
