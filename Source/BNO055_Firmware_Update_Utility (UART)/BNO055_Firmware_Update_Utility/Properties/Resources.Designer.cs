@@ -63,19 +63,9 @@ namespace BNO055_Firmware_Update_Utility.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bno_con {
+        internal static System.Drawing.Bitmap uart2schem {
             get {
-                object obj = ResourceManager.GetObject("bno con", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap schematicuart_drawio {
-            get {
-                object obj = ResourceManager.GetObject("schematicuart.drawio", resourceCulture);
+                object obj = ResourceManager.GetObject("uart2schem", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
