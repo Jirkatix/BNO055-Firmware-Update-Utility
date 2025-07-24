@@ -141,7 +141,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Image = global::BNO055_Firmware_Update_Utility.Properties.Resources.bno_con;
+            this.pictureBox1.Image = global::BNO055_Firmware_Update_Utility.Properties.Resources.i2cv2;
             this.pictureBox1.Location = new System.Drawing.Point(154, 137);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(58, 31);

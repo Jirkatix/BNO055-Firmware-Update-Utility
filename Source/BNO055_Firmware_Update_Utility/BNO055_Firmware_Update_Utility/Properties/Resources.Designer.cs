@@ -63,9 +63,9 @@ namespace BNO055_Firmware_Update_Utility.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bno_con {
+        internal static System.Drawing.Bitmap i2cv2 {
             get {
-                object obj = ResourceManager.GetObject("bno con", resourceCulture);
+                object obj = ResourceManager.GetObject("i2cv2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
